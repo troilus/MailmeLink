@@ -1,6 +1,0 @@
-javascript:(function() {
-  var subject = encodeURIComponent(document.title);
-  var body = encodeURIComponent(document.title + '\n\n' + location.href);
-  var mailtoLink = 'mailto:iswangli@outlook.com?subject=' + subject + '&body=' + body;
-  window.location.href = mailtoLink;
-})();
